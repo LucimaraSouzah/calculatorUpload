@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto+Mono:wght@100&display=swap");
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+input {
+  color: rgb(0, 0, 0);
+  padding: 17px;
+  outline: none;
+  font-size: 30px;
+  font-family: "Hubballi", cursive;
+  border-radius: 25%;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  align-self: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.num {
+  width: 64px;
+  height: 67px;
+}
+
+.text {
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1 {
+  width: 64px;
+  height: 67px;
+  border-radius: 50%;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.main {
+  display: inline-block;
+}
+
+.maincolor {
+  background-color: #dfe6e9;
+}
+
+.gre {
+  background-color: #a29bfe;
+}
+
+.pin {
+  background-color: #74b9ff;
+}
+
+.blue {
+  background-color: #81ecec;
+}
+
+.pur {
+  background-color: #55efc4;
+}
+
+.ora {
+  background-color: #e17055;
+}
